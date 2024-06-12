@@ -1,0 +1,69 @@
+<resources>
+
+    <!--    NAMA  : SYAYFUL HIDAYAT-->
+    <!--    NIM   : 10120912-->
+
+    <string name="app_name">:    Syayful Hidayat</string>
+    <string name="SyayfulHidayat">SYAYFUL HIDAYAT</string>
+    <string name="Email">Saiful14505@gmail.com</string>
+    <string name="skip">SKIP</string>
+
+    <string name="screen1">Halo, Salam Kenal!!</string>
+    <string name="screen2">Kamu Bisa Mencariku</string>
+    <string name="screen3">Hubungi Aku</string>
+    <string name="screen1desc">Kamu bisa mengenalku lebih dekat lagi.
+        Aku mempunyai banyak kesukaan dan hobi yang mungkin kamu suka juga.</string>
+    <string name="screen2desc">Cari aku dimana.
+        Kamu bisa bertemu langsung denganku. </string>
+    <string name="screen3desc">Aku mempunyai email dan sosial media yang bisa kamu hubungi.
+    Kamu bisa berdiskusi dan mengobrol denganku.</string>
+    <string name="startDesc">Ayo berkenalan denganku dengan mencari tahu pengalammanku dan kesukaanku.</string>
+
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+
+    <!--    String Home Profile-->
+    <string name="nim">:    10120912</string>
+    <string name="kelas">:AKB UL-1</string>
+    <string name="tanggal_lahir">:    Bandung, 08 Juli 2000</string>
+    <string name="alamat">:    Bumi panyileukan, Kel. Cipadung Kidul Kec. Panyileukan Bandung 40614</string>
+
+    <string name="desc_profil">:  Saya adalah anak ke-2 dari 2 bersaudara, saya mempunyai orang tua yang berasal dari salah satu daerah di provinsu kota Yogyakarta yaitu bernama Gunung Kidul.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pd1">1.               SDN PINDAD 2 BANDUNG</string>
+    <string name="pd2">2.  SMPN 31 BANDUNG</string>
+    <string name="pd3">3.  SMKN 8 BANDUNG</string>
+    <string name="pd4">4.  UNIVERSITAS KOMPUTER INDONESIA</string>
+
+    <string name="work1">1.  PT. IBARA LIOHO INDONESIA</string>
+    <string name="work2">2.  HONDA AHMAD YANI</string>
+    <string name="work3">3.  HONDA ABADI CIBIRU</string>
+    <string name="work4">4.  WOM FINANCE</string>
+    <string name="work5">4.  PT. ACCENTUATES</string>
+
+    <string name="hobi">Saya memiliki hobi mendaki gunung karna kecintaan saya terhadap alam indonesia dan setiap kita mendaki gunung pasti akan mendapat pelajaran baru dari perjalanan saat mendaki.
+        Disisi lain saat digunung kita bisa merasakan apa yang tidak bisa dirasakan saat di kota, kita bisa melihat "samudra awan" saat sudah di puncak gunung dan mendapat ketenangan.</string>
+
+    <string name="interest">Saya lebih minat dan menyukai pekerjaan yang bertemu langsung dengan client/user/konsumen.
+        Saat bertemu dengan User kita bisa menambah relasi dan bahkan bisa membuka pintu relasi dengan orang yang memiliki pengalaman baru buat kita kedepannya</string>
+
+    <string name="cita">Melihat hal interest saya di atas, saya memiliki cita-cita bisa mempelajari lebih paham dan lebih mendalami bidang Informatika karena sayang ingin menjadi seorang Project Manajer.
+        Dan saya ingin membuatkan aplikasi atau web gratis untuk UMKM yang sangat membutuhkan</string>
+
+    <!--    String Daily Activity-->
+    <string name="job">Keseharian saya bekerja di salah satu perusahaan pembiayaan yang bernama Wom Finance. Saya sudah bekerja di sana selama setahun sebagai Credit Analys.
+        </string>
+    <string name="study">Selain bekerja saya juga sedang mengambil studi di salah satu Universitas terbaik di Indonesia yaitu Universitas Komputer Indonesia. Saya mengambil Program Studi S1 Teknik Informatika.</string>
+    <string name="store">Saya memiliki toko gadget yang menjual berbagai gadget dari brand yang sudah masuk ke Indonesia. Saya mengelola toko saya sendiri online maupun offline, untuk online saya membuka toko di salah satu E-commerce yaitu Tokopedia dan juga memiliki akun Instagram bagi konsumen apabila ada pertanyaan tentang produk dan komplain.
+        </string>
+    <string name="income">Tradercuan. adalah akun instagram yang saya bikin sendiri untuk meng-Share trading plan saya berdasarkan pengalaman dan pemahaman saya selama 4 tahun. Dan itu sebagai penghasilan tambahan sekaligus bentuk investasi saya</string>
+
+   <!--    String About-->
+    <string name="about">Aplikasi ini dibuat untuk memenuhi Tugas UTS saya di matakuliah Aplikasi Komputasi Begerak dibuat tahun 2024</string>
+
+    <!--    String Propil-->
+    <string name="tgllahir22">:  08 Juli 2000</string>
+    <string name="alamat22">:  Panyileukan, Bandung 40614</string>
+    <string name="mypropil">Yaps, sesuai dengan highlight diatas dengan berdasarkan pengalaman yang sudah saya alami. setiap perjalanan punya cerita, teman, keseruan dan rintangan masing masing, foto diatas berada di hutan mati yang berada di gunung papandayan jawa barat. Naik gunung tidak hanya sekedar olahraga saja, dibalik itu banyak menyimpan pelajaran dalam hidup saat dalam perjalanan kita mendaki gunung. Dari mulai kerja sama, keegoisan dan kedewasaan seseorang pasti diuji saat mendaki gunung. Dan di gunung juga kita bisa mendapatkan suasana dan view yang tidak bisa kita dapatkan di kota, di puncak gunung kita bisa melihat samudra awan, melihat awan di depan mata kita langsung itu rasanya luar biasa, dan suasana yang sunyi dan hening bisa merelaksasikan tubuh kita yang lelah dengan hirup pikuk di kota.</string>
+</resources>

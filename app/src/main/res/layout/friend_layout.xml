@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--    NAMA  : SYAYFUL HIDAYAT-->
+<!--    NIM   : 10120912-->
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="160dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="8dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="10dp"
+    android:layout_height="160dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/card_border">
+
+        <ImageView
+            android:id="@+id/clothing_image"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_margin="15dp"
+            android:scaleType="fitXY"
+            android:background="@color/cardview_shadow_end_color"
+            android:src="@drawable/background"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <TextView
+            android:id="@+id/clothing_offer_tv"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Sasuke"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:circularflow_radiusInDP="2dp"
+            android:fontFamily="@font/poppins_semibold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/clothing_image" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

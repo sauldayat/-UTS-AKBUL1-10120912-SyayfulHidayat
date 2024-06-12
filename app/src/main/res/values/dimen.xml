@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--    NAMA  : SYAYFUL HIDAYAT-->
+    <!--    NIM   : 10120912-->
+
+    <dimen name="dimen_14dp">14dp</dimen>
+    <dimen name="dimen_18dp">18dp</dimen>
+    <dimen name="dimen_8dp">8dp</dimen>
+    <dimen name="dimen_12dp">12dp</dimen>
+    <dimen name="dp50">50dp</dimen>
+</resources>

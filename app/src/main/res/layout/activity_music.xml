@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--    NAMA  : SYAYFUL HIDAYAT-->
+<!--    NIM   : 10120912-->
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_margin="10dp"
+android:orientation="vertical"
+tools:context=".MusicActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/judulmusic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:foregroundGravity="center"
+                android:layout_marginTop="13dp"
+                android:layout_toEndOf="@+id/back_btn"
+                android:fontFamily="@font/poppins_semibold"
+                android:gravity="center"
+                android:text="Music"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/back_btn"
+                android:layout_width="71dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#00000000"
+                android:drawableLeft="@drawable/back"
+                android:textAlignment="center" />
+
+
+            <TextView
+                android:id="@+id/listvideo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_14dp"
+                android:text="Daftar Video (Scroll List Video)"
+                android:fontFamily="@font/poppins_semibold"
+                android:textSize="18dp"
+                android:layout_below="@+id/videoview"/>
+
+            <VideoView
+                android:id="@+id/videoview"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@+id/judulmusic"
+                android:layout_marginTop="15dp" />
+
+            <ListView
+                android:id="@+id/lvideo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/listvideo"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:id="@+id/txtmusic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_14dp"
+                android:text="Daftar Music (Scroll List Music)"
+                android:fontFamily="@font/poppins_semibold"
+                android:textSize="18dp"
+                android:layout_below="@+id/lvideo"/>
+
+            <ListView
+                android:id="@+id/lmusic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtmusic"
+                android:layout_marginTop="5dp" />
+        </RelativeLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

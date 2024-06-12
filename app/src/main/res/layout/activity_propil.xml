@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="match_parent"
+    tools:context=".PropilActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rl1">
+
+        <TextView
+            android:id="@+id/Judul_Gallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:foregroundGravity="center"
+            android:layout_marginTop="13dp"
+            android:layout_toEndOf="@+id/back_btn"
+            android:fontFamily="@font/poppins_semibold"
+            android:gravity="center"
+            android:text="My Profile"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/back_btn"
+            android:layout_width="71dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#00000000"
+            android:drawableLeft="@drawable/back"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="MY TRIP MY ADVENTURE"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:layout_above="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/Judul_Gallery" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="240dp"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/papandayan"
+            android:layout_below="@+id/Judul_Gallery"
+            tools:layout_editor_absoluteY="105dp" />
+
+
+        <TextView
+            android:id="@+id/txt_despropil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/mypropil"
+            android:textAlignment="textStart"
+            android:textSize="15dp"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="190dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
+            android:layout_below="@+id/txt_despropil"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/hutmat" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/cons2"
+            android:layout_below="@+id/imageView2">
+
+            <TextView
+                android:id="@+id/nama"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="@dimen/dimen_18dp"
+                android:text="Nama"
+                android:textSize="16sp"
+                app:fontFamily="@font/poppins_semibold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView2"
+                android:layout_marginLeft="@dimen/dimen_8dp"/>
+
+            <TextView
+                android:id="@+id/nama2"
+                android:layout_width="233dp"
+                android:layout_height="27dp"
+                android:textAlignment="gravity"
+                android:layout_marginTop="@dimen/dimen_18dp"
+                android:layout_toEndOf="@+id/nama"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="@string/app_name"
+                android:textSize="14dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.045"
+                app:layout_constraintStart_toEndOf="@id/nama"
+                app:layout_constraintTop_toBottomOf="@+id/imageView2"
+                android:layout_marginLeft="@dimen/dimen_8dp"/>
+
+            <TextView
+                android:id="@+id/tgl_lahir"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="Tempat, Tanggal Lahir"
+                android:textSize="14dp"
+                android:layout_marginStart="10dp"
+                app:fontFamily="@font/poppins_semibold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/nama"
+                android:layout_marginLeft="@dimen/dimen_8dp" />
+
+            <TextView
+                android:id="@+id/tgl_lahir2"
+                android:layout_width="233dp"
+                android:layout_height="28dp"
+                android:layout_marginStart="@dimen/dimen_8dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/nama"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="@string/tanggal_lahir"
+                android:textSize="14dp"
+                app:layout_constraintStart_toEndOf="@id/tgl_lahir"
+                app:layout_constraintTop_toBottomOf="@+id/nama2"
+                android:layout_marginLeft="@dimen/dimen_8dp"/>
+
+            <TextView
+                android:id="@+id/alamat"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Alamat"
+                android:textSize="14dp"
+                app:fontFamily="@font/poppins_semibold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tgl_lahir" />
+
+            <TextView
+                android:id="@+id/alamat2"
+                android:layout_width="233dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dimen_8dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/tgl_lahir2"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="@string/alamat"
+                android:textSize="14dp"
+                app:layout_constraintStart_toEndOf="@id/tgl_lahir"
+                app:layout_constraintTop_toBottomOf="@+id/tgl_lahir2" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/fotoo"
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_alignParentEnd="true"
+            android:fontFamily="@font/poppins_semibold"
+            android:layout_below="@id/cons2"
+            android:text="Foto - Foto"
+            android:textSize="22dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="170dp"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/cikuray"
+            android:layout_below="@id/fotoo" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="170dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/fotoo"
+            android:layout_marginStart="27dp"
+            android:layout_toEndOf="@+id/imageView5"
+            android:scaleType="centerCrop"
+            android:src="@drawable/guntur"
+            tools:layout_editor_absoluteY="1006dp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="170dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/imageView4"
+            android:layout_marginTop="25dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/gede" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="170dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/imageView6"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="21dp"
+            android:layout_marginBottom="60dp"
+            android:layout_toEndOf="@+id/imageView5"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ciremai" />
+
+    </RelativeLayout>
+</ScrollView>
